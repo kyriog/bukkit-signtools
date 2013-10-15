@@ -2,3 +2,7 @@ name: SignTools
 main: fr.kyriog.bukkit.signtools.SignToolsPlugin
 author: Kyriog
 version: 0.1
+commands:
+  unsign:
+    description: Destroy a sign at specified coordinates
+    usage: /unsign <x> <y> <z> [world]
