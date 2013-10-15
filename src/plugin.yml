@@ -1,0 +1,4 @@
+name: SignTools
+main: fr.kyriog.bukkit.signtools.SignToolsPlugin
+author: Kyriog
+version: 0.1
