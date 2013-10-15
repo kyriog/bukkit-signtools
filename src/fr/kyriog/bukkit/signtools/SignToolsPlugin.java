@@ -13,6 +13,6 @@ public class SignToolsPlugin extends JavaPlugin {
 		World defaultWorld = getServer().getWorlds().get(0);
 		pm.registerEvents(new SignToolsListener(getLogger(), defaultWorld), this);
 
-		getCommand("unsign").setExecutor(new UnsignCommand());
+		getCommand("unsign").setExecutor(new UnsignCommand(getServer(), getLogger()));
 	}
 }
